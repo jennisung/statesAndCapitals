@@ -65,8 +65,8 @@ public class StatesAndCapitals
         // B1. Submit the first five states
         // Use limit()
 
+        //b1 pass
         List<StateInfo> firstFiveStates = states.stream().limit(5).collect(toList());
-
 
 
         testResults.put("B1", StatesAndCapitalsCheck.basic1(firstFiveStates));
@@ -76,7 +76,8 @@ public class StatesAndCapitals
         // B2. Submit the last five states
         // Use skip()
 
-        List<StateInfo> lastFiveStates = null;
+        // b2 test pass
+        List<StateInfo> lastFiveStates = states.stream().skip(45).collect(toList());
 
         testResults.put("B2", StatesAndCapitalsCheck.basic2(lastFiveStates));
 
