@@ -67,6 +67,8 @@ public class StatesAndCapitals
 
         List<StateInfo> firstFiveStates = states.stream().limit(5).collect(toList());
 
+
+
         testResults.put("B1", StatesAndCapitalsCheck.basic1(firstFiveStates));
 
 
