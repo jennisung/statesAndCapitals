@@ -35,3 +35,10 @@ Look in the demo folder for a folder called statesAndCapitals. Open that project
 - 1 pt for finishing the Advanced 2 tests
 - 1 pt additional for finishing all tests Basic -> Advanced 2
 - 1 pt for README with clear instructions on how to run application
+
+
+## How to run test
+* Find the "Run" or "Run Test" option in your IDE and click on it to run the test for each question.
+* The test will execute, and the application will check if the code question runs successfully.
+* If the code question runs "true" without any errors, you have passed the test for that question.
+* Go through each question until they all run "true"
