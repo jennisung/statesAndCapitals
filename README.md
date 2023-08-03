@@ -11,3 +11,10 @@ Look in the demo folder for a folder called statesAndCapitals. Open that project
 ## Feature Tasks
 - Get the unit tests up through the end of Advanced 2 working. (This means the Basic, Intermediate, Advanced 1, and Advanced 2 tests should all be working.) The results of your tests are printed at the end of testStatesAndCapitals() with "System.out.println(testResults);". "true" means a test is passing, while "false" means it is failing.
 - Alternately, submitting any 19 working tests is fine too.
+
+
+## How to run test
+* Find the "Run" or "Run Test" option in your IDE and click on it to run the test for each question.
+* The test will execute, and the application will check if the code question runs successfully.
+* If the code question runs "true" without any errors, you have passed the test for that question.
+* Go through each question until they all run "true"
