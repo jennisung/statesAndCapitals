@@ -81,10 +81,15 @@ public class StatesAndCapitals
 
         testResults.put("B2", StatesAndCapitalsCheck.basic2(lastFiveStates));
 
+
         // B3. From 1-20, submit the first 5 numbers
         // Use limit()
 
+
         List<Integer> firstFiveNumbers = IntStream.range(1, 20).boxed().collect(toList());
+
+        //b3 test pass
+        firstFiveNumbers = firstFiveNumbers.stream().limit(5).collect(toList());
 
         testResults.put("B3", StatesAndCapitalsCheck.basic3(firstFiveNumbers));
 
@@ -93,6 +98,9 @@ public class StatesAndCapitals
 
         List<Integer> lastFiveNumbers = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20).collect(toList());
 
+        //b4 test pass
+        lastFiveNumbers = lastFiveNumbers.stream().skip(15).collect(toList());
+
         testResults.put("B4", StatesAndCapitalsCheck.basic4(lastFiveNumbers));
 
         // B5. Submit the total number of states
@@ -100,6 +108,7 @@ public class StatesAndCapitals
         // PS: Don't use states.size(). It's easier and IntelliJ will even warn you not to do things this way. But I want you to understand how to use count() (or counting()).
 
         Long statesNumber = null;
+
 
         testResults.put("B5", StatesAndCapitalsCheck.basic5(statesNumber));
 
